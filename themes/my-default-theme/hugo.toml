@@ -1,4 +1,4 @@
-baseURL = 'https://str7kerr.github.io/samarthpatel/'
+baseURL = 'https://str7kerr.github.io/'
 languageCode = 'en-US'
 title = 'Samarths Page'
 theme = 'my-default-theme'

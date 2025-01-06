@@ -1,5 +1,5 @@
-baseURL = 'https://str7kerr.github.io/samarthpatel/'
+baseURL = 'https://str7kerr.github.io/'
 languageCode = 'en-us'
 theme = 'my-default-theme'
 
-relativeURLs = true
+relativeURLs = false
