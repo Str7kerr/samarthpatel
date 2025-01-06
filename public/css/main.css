@@ -1,0 +1,139 @@
+body {
+  color: #222;
+  font-family: sans-serif;
+  line-height: 1.5;
+  margin: 1rem;
+  max-width: 768px;
+  background-color: rgb(183, 210, 224);
+}
+
+header {
+  border-bottom: 1px solid #222;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 992px) {
+  .terminal {
+    margin-left: 100px;
+  }
+}
+
+.terminal-about {
+  min-height: 350px;
+}
+
+.terminal-header {
+  width: calc(100% + 60px);
+  margin: -30px -30px 13px;
+  text-align: center;
+  border-radius: 4px 4px 0 0;
+  background-color: #fff;
+  color: #5f5f5f;
+  position: relative;
+}
+
+.terminal-buttons {
+  position: relative;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  float: right;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-left: -60px;
+}
+
+.terminal-button {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  display: inherit;
+  margin-right: 5px;
+}
+
+.terminal-button-min {
+  background-color: orange;
+}
+
+.terminal-button-max {
+  background-color: green;
+}
+
+.terminal-button-close {
+  background-color: red;
+}
+
+@media (min-width: 992px) {
+  .terminal-contact {
+    position: relative;
+    left: 150px;
+    top: -50px;
+  }
+}
+
+.typewriter p{ 
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .1em solid rgb(243, 239, 233); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .02em; /* Adjust as needed */
+  max-width: 33ch; /* Limit width to the number of characters in the text */
+  display: inline-block; /* Ensures the width animation works properly */
+  animation: 
+    typing 2.0s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0% }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(239, 237, 233); }
+}
+
+.terminal {
+  background-color: #35383d;
+  color: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  font-family: Ubuntu Mono,monospace;
+  font-size: 20px;
+  margin-bottom: 5px;
+
+  width: 640px; /* Adjust width as needed */
+  height: 10px; /* Adjust height as needed */
+  max-width: 100%; /* Ensure it doesn't exceed container size */
+  overflow: auto; /* Enable scrolling if content overflows */
+}
+
+.delayed-paragraph {
+  visibility: hidden; /* Hide initially */
+  animation: appear 0s linear 2s forwards; /* Delay of 2 seconds */
+  font-size: 17px;
+}
+
+.delayed-command{
+  visibility: hidden; /* Hide initially */
+  animation: appear 0s linear 3s forwards; /* Delay of 3 seconds */
+  font-size: 17px;
+}
+
+@keyframes appear {
+  to {
+    visibility: visible; /* Make visible after the delay */
+  }
+}
+
+footer {
+  border-top: 1px solid #222;
+  margin-top: 1rem;
+}
+
+a {
+  color: #00e;
+  text-decoration: none;
+}
