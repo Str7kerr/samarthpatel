@@ -2,4 +2,5 @@ baseURL = 'https://str7kerr.github.io/samarthpatel/public'
 languageCode = 'en-us'
 theme = 'my-default-theme'
 
-relativeURLs = true
+relativeURLs = false
+canonifyURLs = true
