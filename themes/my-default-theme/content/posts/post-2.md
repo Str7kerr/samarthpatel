@@ -71,15 +71,15 @@ About Me
 
     {{< div class="contact-content">}}
         <p>
-            <b> Email :  </b>
+            <b> Email:  </b>
             patelsamarthashish@gmail.com
         </p>
         <p>
-            <b> LinkedIn :  </b>
+            <b> LinkedIn:  </b>
             <a href="https://www.linkedin.com/in/samarth-patel7/" target="_blank"> SamarthPatel </a>
         </p>
         <p>
-            <b> GitHub :  </b>
+            <b> GitHub:  </b>
             <a href="https://github.com/Str7kerr" target="_blank"> SamarthPatel </a>
         </p>
     {{< /div >}}
