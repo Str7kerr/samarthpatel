@@ -1,9 +1,23 @@
-+++
+<!-- +++
 draft = false
 tags = ['red','green']
-+++
++++ -->
 
-<!-- About Me Terminal -->
+{{< div class="container component-wrapper">}}
+
+{{< div class="page-banner col-md-12">}}
+
+{{< div class="md-pixel-logo-coding">}}
+{{< /div >}}
+
+{{< div class="page-name page-header">}}
+
+<h1>
+Samarth Patel's Page
+</h1    >
+{{< /div >}}
+
+{{< /div >}}
 
 {{< div class="terminal terminal-about" >}}
 {{< div class="terminal-header" >}}
@@ -17,8 +31,8 @@ About Me
 
 {{< /div >}}
 
-    {{< div class="typewriter">}}
-        <p> -> cat whoIsSamarth.txt </p>
+    {{< div class="typewriter typewriter-1">}}
+        <p> -> ~ cat whoIsSamarth.txt </p>
     {{< /div >}}
 
     <p class="delayed-paragraph"> $ Hey there! 👋 I'm Samarth, a CS grad student at Arizona State University with a passion for problem solving at the intersection of software, data, and ML. </p>
@@ -26,34 +40,50 @@ About Me
     <p class="delayed-paragraph">
     $ I formerly worked at Amazon(AWS) as an SDE, and did internships at Piramal Finance and HexaCorp. </p>
 
-    <p class="delayed-command"> -> gnome terminal </p>
+    {{< div class="typewriter typewriter-3">}}
+        <p> -> ~ gnome terminal </p>
+    {{< /div >}}
+
+    {{< div class="typewriter typewriter-4">}}
+        <p> -> </p>
+    {{< /div >}}
 
 {{< /div >}}
 
 <!-- Contact Info Terminal -->
 
-{{< div class="terminal terminal-about" >}}
-{{< div class="terminal-header" >}}
-Contact Info
-{{< div class="terminal-buttons" >}}
-{{< div class="terminal-button terminal-button-min">}} {{< /div >}}
-{{< div class="terminal-button terminal-button-max">}} {{< /div >}}
-{{< div class="terminal-button terminal-button-close">}} {{< /div >}}
-{{< /div >}}
+{{< div class="terminal terminal-contact" >}}
 
-{{< /div >}}
+    {{< div class="terminal-header" >}}
 
-    {{< div class="typewriter">}}
-        <p> -> cat contactInfo.txt </p>
+        Contact Info
+        {{< div class="terminal-buttons" >}}
+            {{< div class="terminal-button terminal-button-min">}} {{< /div >}}
+            {{< div class="terminal-button terminal-button-max">}} {{< /div >}}
+            {{< div class="terminal-button terminal-button-close">}} {{< /div >}}
+        {{< /div >}}
+
     {{< /div >}}
 
-    <p class="delayed-paragraph"> $ Hey there! 👋 I'm Samarth, a CS grad student at Arizona State University with a passion for problem solving at the intersection of software, data, and ML. </p>
+    {{< div class="typewriter typewriter-2">}}
+        <p> -> ~ cat contactInfo.txt </p>
+    {{< /div >}}
 
-    <p class="delayed-paragraph">
-    $ I formerly worked at Amazon(AWS) as an SDE, and did internships at Piramal Finance and HexaCorp. </p>
+    {{< div class="contact-content">}}
+        <p>
+            <b> Email :  </b>
+            patelsamarthashish@gmail.com
+        </p>
+        <p>
+            <b> LinkedIn :  </b>
+            <a href="https://www.linkedin.com/in/samarth-patel7/" target="_blank"> SamarthPatel </a>
+        </p>
+        <p>
+            <b> GitHub :  </b>
+            <a href="https://github.com/Str7kerr" target="_blank"> SamarthPatel </a>
+        </p>
+    {{< /div >}}
 
 {{< /div >}}
 
-Anim eiusmod irure incididunt sint cupidatat. Incididunt irure irure irure nisi ipsum do ut quis fugiat consectetur proident cupidatat incididunt cillum. Dolore voluptate occaecat qui mollit laborum ullamco et. Ipsum laboris officia anim laboris culpa eiusmod ex magna ex cupidatat anim ipsum aute. Mollit aliquip occaecat qui sunt velit ut cupidatat reprehenderit enim sunt laborum. Velit veniam in officia nulla adipisicing ut duis officia.
-
-Exercitation voluptate irure in irure tempor mollit Lorem nostrud ad officia. Velit id fugiat occaecat do tempor. Sit officia Lorem aliquip eu deserunt consectetur. Aute proident deserunt in nulla aliquip dolore ipsum Lorem ut cupidatat consectetur sit sint laborum. Esse cupidatat sit sint sunt tempor exercitation deserunt. Labore dolor duis laborum est do nisi ut veniam dolor et nostrud nostrud.
+{{< /div >}}
