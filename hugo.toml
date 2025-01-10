@@ -3,3 +3,4 @@ languageCode = 'en-us'
 theme = 'my-default-theme'
 
 relativeURLs = false
+publishDir = "docs"
