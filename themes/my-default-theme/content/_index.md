@@ -1,4 +1,5 @@
 +++
-title = 'Professional Work Experience'
-draft = true
+title = 'Samarth Patel'
 +++
+
+This is the homepage
