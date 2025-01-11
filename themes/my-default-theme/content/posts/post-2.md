@@ -12,9 +12,9 @@ tags = ['red','green']
 
 {{< div class="page-name page-header">}}
 
-<h1>
+<h3>
 Samarth Patel's Page
-</h1    >
+</h3>
 {{< /div >}}
 
 {{< /div >}}
@@ -83,6 +83,7 @@ About Me
             <a href="https://github.com/Str7kerr" target="_blank"> SamarthPatel </a>
         </p>
     {{< /div >}}
+    Nahi
 
 {{< /div >}}
 

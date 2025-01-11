@@ -2,9 +2,11 @@ body {
   color: #222;
   font-family: sans-serif;
   line-height: 1.42857143;
-  margin: 1rem;
+  margin-left: 7rem; /* Adds margin only to the left */
+  margin-top: -1rem; /* Adds margin only to the left */
   max-width: 768px;
   background-color: rgb(183, 210, 224);
+  font-size: x-small;
 }
 
 header {
@@ -102,7 +104,7 @@ a {
   letter-spacing: 0.04em; /* Adjust as needed */
   display: inline-block; /* Ensures the width animation works properly */
   font-family: Ubuntu Mono, monospace; /* Ensures consistent character spacing */
-  font-size: 17px; /* Text size */
+  font-size: medium; /* Text size */
   max-width: 100%; /* Adjust as needed */
 }
 
@@ -220,7 +222,7 @@ a {
 .delayed-paragraph {
   visibility: hidden; /* Hide initially */
   animation: appear 0s linear 2s forwards; /* Delay of 2 seconds */
-  font-size: 17px;
+  font-size: medium;
 }
 
 .delayed-command {
@@ -1065,4 +1067,17 @@ a {
   visibility: hidden; /* Hide initially */
   animation: appear 6s linear 6s forwards; 
   font-size: 17px;
+}
+
+.nav-pane {
+  display: grid;
+  width: 100px;
+}
+
+.nav-pane a[aria-current="true"] {
+  text-decoration: underline;
+}
+
+.nav-pane a {
+  color: #000 !important;
 }
