@@ -1,14 +1,15 @@
 +++
-title = 'Samarth Patel'
-class = 'about'
+class = 'professional'
+draft = false
+tags = ['red']
 +++
 
-{{< div class="flex-container">}}
+{{< div class="flex-container body-pro">}}
 
     {{< div class="container component-wrapper">}}
 
         {{< div class="page-banner col-md-12">}}
-            {{< div class="md-pixel-logo-coding">}} {{< /div >}}
+            {{< div class="md-pixel-logo-sleeping">}} {{< /div >}}
             {{< div class="page-name page-header">}}
                 <h1> Samarth Patel's Page </h1>
             {{< /div >}}
@@ -87,14 +88,19 @@ class = 'about'
                 <p class = "refs"> About Me </p>
             {{< /a >}}
 
-            {{< a aria-current="false" href="/posts/professional" >}}
+            {{< a aria-current="false" href="/professional" >}}
                 <!-- {{< h3 >}}Professional Experience{{< /h3 >}} -->
                 <p class = "refs"> Professional Experience </p>
             {{< /a >}}
 
-            {{< a aria-current="false" href="/posts/education" >}}
+            {{< a aria-current="false" href="/education" >}}
                 <!-- {{< h3 >}}Education{{< /h3 >}} -->
                 <p class = "refs">Education </p>
+            {{< /a >}}
+
+            {{< a aria-current="false" href="/portfolio" >}}
+                <!-- {{< h3 >}}Portfolio{{< /h3 >}} -->
+                <p class = "refs"> Portfolio </p>
             {{< /a >}}
 
             {{< a aria-current="false" href="/blog" >}}

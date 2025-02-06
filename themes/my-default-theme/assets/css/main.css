@@ -1,4 +1,4 @@
-body {
+.about {
   color: #222;
   font-family: sans-serif;
   line-height: 1.42857143;
@@ -6,6 +6,17 @@ body {
   margin-top: -1rem; /* Adds margin only to the left */
   max-width: 768px;
   background-color: rgb(183, 210, 224);
+  font-size: x-small;
+}
+
+.professional {
+  color: #222;
+  font-family: sans-serif;
+  line-height: 1.42857143;
+  margin-left: 7rem; /* Adds margin only to the left */
+  margin-top: -1rem; /* Adds margin only to the left */
+  max-width: 768px;
+  background-color: rgb(249, 222, 119);
   font-size: x-small;
 }
 

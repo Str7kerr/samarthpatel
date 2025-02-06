@@ -1,6 +1,7 @@
 baseURL = 'https://str7kerr.github.io/samarthpatel'
 languageCode = 'en-us'
 theme = 'my-default-theme'
+title = 'Samarth Patel'
 
 relativeURLs = false
 

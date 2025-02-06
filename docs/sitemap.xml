@@ -5,9 +5,13 @@
     <loc>http://localhost:1313/samarthpatel/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/samarthpatel/posts/post-2/</loc>
+    <loc>http://localhost:1313/samarthpatel/posts/education/</loc>
+  </url><url>
+    <loc>http://localhost:1313/samarthpatel/posts/professional/</loc>
   </url><url>
     <loc>http://localhost:1313/samarthpatel/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/samarthpatel/tags/red/</loc>
   </url><url>
     <loc>http://localhost:1313/samarthpatel/tags/</loc>
   </url>
