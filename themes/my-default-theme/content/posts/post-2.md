@@ -85,6 +85,5 @@ About Me
     {{< /div >}}
 
 {{< /div >}}
-Nayy
 
 {{< /div >}}
