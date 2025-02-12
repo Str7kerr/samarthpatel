@@ -79,31 +79,4 @@ class = 'about'
 
     {{< /div >}}
 
-    {{< div class = "other-pages">}}
-
-        {{< div class="nav-pane grid" >}}
-
-            {{< a class="active" aria-current="true" href="/" >}}
-                <p class = "refs"> About Me </p>
-            {{< /a >}}
-
-            {{< a aria-current="false" href="/posts/professional" >}}
-                <!-- {{< h3 >}}Professional Experience{{< /h3 >}} -->
-                <p class = "refs"> Professional Experience </p>
-            {{< /a >}}
-
-            {{< a aria-current="false" href="/posts/education" >}}
-                <!-- {{< h3 >}}Education{{< /h3 >}} -->
-                <p class = "refs">Education </p>
-            {{< /a >}}
-
-            {{< a aria-current="false" href="/blog" >}}
-                <!-- {{< h3 >}}Blog{{< /h3 >}} -->
-                <p class = "refs"> Blog </p>
-            {{< /a >}}
-
-        {{< /div >}}
-
-    {{< /div >}}
-
 {{< /div >}}
